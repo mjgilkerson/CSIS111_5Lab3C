@@ -11,6 +11,8 @@ void firstText()
     ifstream MyReadFile("A.txt");
     int i = 0;
 
+    cout << "test";
+
     //Creating an array
     int arrayA[3][2] = { {2,-5},{4,0},{9,1} };
     for (int i = 0; i < 3; i++)
@@ -31,6 +33,7 @@ void firstText()
 
 void secondText()
 {
+    //this function reads txt file B.txt
     string myNum;
     ifstream MyReadFile("B.txt");
     int i = 0;
@@ -44,6 +47,7 @@ void secondText()
 
 void thirdText()
 {
+    //This function creates a txt document and writes the following into it
     ofstream MyFile("C.txt");
     for (int i = 1; i <= 10; i++)
     {
